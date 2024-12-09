@@ -113,7 +113,7 @@ jobs:
       # Setup Python
       - name: Setup Python / Ubuntu / ${{ matrix.py-ver }}
         id: setup-py
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.py-ver }}
           architecture: ${{ env.arch }}
